@@ -1,0 +1,44 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing: inherit;
+  }
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px auto;
+    /* box-sizing: border-box; */
+}
+li{
+    color: rgb(13, 150, 105);
+}
+a{
+    color: inherit;
+    color: rgb(226, 92, 43);
+    color: revert;
+}
+a{
+    /* display: none;
+     */
+     visibility: hidden;
+    /* width: 200px;
+    padding: 1rem;
+    margin: 1rem; */
+}
+p{
+    width: 100%;
+}
+
+img{
+    float: right;
+}
+.floatPrac p{
+    clear: both;
+}

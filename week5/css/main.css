@@ -1,0 +1,127 @@
+/* Custom styles */
+/* Tag name selector */
+body{
+    background-color: rgb(190, 221, 221);
+    font-family: Arial, sans-sarif;
+    font-size: 20px;
+}
+/* this is a comment */
+
+main{
+    width: 100vw;
+    /* font-size: 10px; */
+}
+
+main button{
+    width: 100%;
+}
+
+h2{
+    text-transform: uppercase;
+    
+}
+p{
+    font-size: 0.5rem; 
+    /* 10px */
+    /* font-size: 0.5em;  */
+    /* 5px */
+    /* line-height: 1.5; */
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: 100;
+}
+
+h1{
+    margin: 20px;
+}
+.headOne{
+    color: red;
+}
+#headingOne{
+    color: rgb(133, 115, 12);
+}
+/* SAme styles on h1 and h2 */
+h1, h2{
+    text-decoration: underline;
+    color: green !important;
+}
+h1{
+    color: #083e73;
+    text-align: center;
+}
+
+/* Class Selector */
+.btn{
+    background-color: #083e73;
+    color: aliceblue;
+    padding: 16px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    /* outline */
+    box-shadow: 2px 2px 7px 3px #b8b5b5;
+}
+
+.btn:hover{
+    background-color: aliceblue;
+    color: #083e73;
+}
+
+/* id selector */
+#intoPara{
+    font-style: italic;
+}
+
+article h2{
+    color: red;
+}
+
+h2{
+    color: orange;
+}
+
+/* li{
+    color: rgb(93, 0, 255);
+} */
+
+/* adding child number, adding odd or even, 2n+1 */
+ul li:nth-child(2n+1){
+    color: red;
+    /* list-style-type: ; */
+}
+
+.secondClass{
+    border: 2px solid #f40707;
+}
+
+/* form styles */
+form{
+    background-color: aliceblue;
+    max-width: 600px;
+    /* margin vs padding */
+    /* padding: 20px; top bottom left and right
+    margin: 20px 30px; top and bottom, left and right */
+    /* margin: 10px 20px 30px 40px; */
+    /* top right bottom left */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+input, textarea {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+article section h3{
+
+}
+a{
+    color: red;
+}
+a[href^="http"] {
+    color: green;
+  }
