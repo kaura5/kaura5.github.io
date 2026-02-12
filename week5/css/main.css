@@ -1,0 +1,23 @@
+body{
+    background-color: bisque;
+}
+
+/* changing color of header bg */
+
+header{
+    background-color: azure;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    color: darkcyan;
+}
+
+h1, h2, h3{
+    text-decoration: underline;
+}
+
+section p{
+    border: 2px solid black;
+}
